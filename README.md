@@ -21,3 +21,9 @@ This model is developed from the https://github.com/automl/RoBO/tree/master
 
 !pip install openml
 ```
+
+# Common problem
+
+ImportError: No module named sklearn.cross_validation
+
+Just change cross_validation to model_selection will fix it.
